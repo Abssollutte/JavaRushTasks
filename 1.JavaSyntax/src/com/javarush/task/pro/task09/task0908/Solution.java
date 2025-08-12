@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 */
 
 public class Solution {
+    
 
     public static void main(String[] args) {
         String binaryNumber = "100111010000";
@@ -16,7 +17,10 @@ public class Solution {
     }
 
     public static String toHex(String binaryNumber) {
-        //напишите тут ваш код
+        if (binaryNumber == null || binaryNumber.isEmpty() || !binaryNumber.matches("[01]+")) {
+            return "";
+        }
+
         return null;
     }
 
