@@ -17,7 +17,8 @@ public class Solution {
     }
 
     public static void setRewards() {
-       
+        List<Voter> voters = Voter.generateVoters();
+
     }
 
     public static void printMap(Map<?, ?> map) {
